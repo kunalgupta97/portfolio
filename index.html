@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kunal Gupta's portfolio - MCA student, aspiring software developer.">
+    <title>Kunal Gupta | Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Kunal<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="nav-contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span>Kunal Gupta</span></h1>
+
+                <h2>Aspiring Software Developer</h2>
+
+                <p class="hero-description">
+                    I'm an MCA student passionate about technology,
+                    software development, cloud computing, and solving
+                    real-world problems through code.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Projects
+                    </a>
+                    <a href="resume.pdf" class="btn btn-outline"
+                       target="_blank" rel="noopener">
+                        View Resume ↗
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/"
+                       target="_blank" rel="noopener">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="profile-card">
+                    <div class="profile-circle">KG</div>
+                    <h3>Kunal Gupta</h3>
+                    <p>MCA Student | Fresher</p>
+                    <div class="status">
+                        <span class="status-dot"></span>
+                        Open to opportunities
+                    </div>
+                    <div class="profile-tags">
+                        <span>Developer</span>
+                        <span>Problem Solver</span>
+                        <span>Learner</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-card">
+                <p>
+                    I am currently pursuing a Master of Computer Applications
+                    (MCA) at GLA University, Mathura. I have a strong interest
+                    in software development, web technologies, and cloud
+                    computing.
+                </p>
+                <p>
+                    I enjoy learning new technologies, improving my
+                    problem-solving skills, and developing practical
+                    projects. I am looking for an opportunity to apply
+                    my knowledge, learn from experienced professionals,
+                    and contribute to a team.
+                </p>
+                <div class="about-facts">
+                    <div>
+                        <strong>MCA</strong>
+                        <span>Current Degree</span>
+                    </div>
+                    <div>
+                        <strong>3</strong>
+                        <span>Academic Projects</span>
+                    </div>
+                    <div>
+                        <strong>Fresher</strong>
+                        <span>Career Stage</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY TECHNICAL TOOLKIT</p>
+                    <h2>Technical <span>Skills</span></h2>
+                    <p>Technologies I have studied and used in my projects.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon">⌨</div>
+                        <h3>Programming</h3>
+                        <div class="tags">
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">◇</div>
+                        <h3>Web Development</h3>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>React</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">☁</div>
+                        <h3>Cloud & Backend</h3>
+                        <div class="tags">
+                            <span>AWS</span>
+                            <span>Flask</span>
+                            <span>FastAPI</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">▤</div>
+                        <h3>Database & Tools</h3>
+                        <div class="tags">
+                            <span>SQL</span>
+                            <span>MongoDB</span>
+                            <span>Git</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section container" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I'VE BUILT</p>
+                <h2>My <span>Projects</span></h2>
+                <p>Academic projects demonstrating my technical learning.</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-number">01 / CLOUD</div>
+                    <h3>Cloud-Based Feedback System</h3>
+                    <p>
+                        A web application for collecting and managing
+                        user feedback through a React frontend and
+                        Python Flask REST API, using AWS services for
+                        deployment, storage, access control, and monitoring.
+                    </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>AWS</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">02 / WEB DEVELOPMENT</div>
+                    <h3>Lost and Found Management System</h3>
+                    <p>
+                        A responsive web application that allows users
+                        to report lost or found items, search listings,
+                        filter results, and validate item details.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-number">03 / MACHINE LEARNING</div>
+                    <h3>Real-Time Fraud Detection System</h3>
+                    <p>
+                        A fraud-monitoring application that combines
+                        machine learning and graph analysis to identify
+                        suspicious transaction patterns and display
+                        alerts through a dashboard.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>React</span>
+                        <span>MongoDB</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section section-alt" id="education">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+                    <h2>My <span>Education</span></h2>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-date">August 2025 – Present</p>
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <p>GLA University, Mathura</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-date">August 2020 – May 2023</p>
+                        <h3>Bachelor of Business Administration (BBA)</h3>
+                        <p>JS University, Shikohabad</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-date">April 2014 – February 2015</p>
+                        <h3>Class XII — UP Board</h3>
+                        <p>RSSD Intermediate Education</p>
+                    </article>
+
+                    <article class="timeline-item">
+                        <span class="timeline-dot"></span>
+                        <p class="timeline-date">April 2012 – February 2013</p>
+                        <h3>Class X — CBSE</h3>
+                        <p>Tulip Public School</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section container" id="contact">
+            <div class="contact-card">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Let's Build Something <span>Great</span></h2>
+                <p>
+                    I am interested in fresher positions, internships,
+                    and opportunities to learn and grow as a developer.
+                </p>
+                <a href="mailto:your.email@example.com"
+                   class="btn btn-primary">Email Me ↗</a>
+                <p class="contact-location">Etah, Uttar Pradesh, India</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Kunal Gupta. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+    <script src="working.js"></script>
+</body>
+</html>
